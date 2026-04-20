@@ -1,5 +1,5 @@
 
-import hero from "../assets/photo1.png";
+import hero from "../assets/Photo1.png";
 import { motion } from "framer-motion"; 
 import { Link } from "react-scroll";
 
@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <motion.div
       className="text-white py-10"
-      initial={{ opacity: 0 }}
+      initial={{ opacity: 0 }}  
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
