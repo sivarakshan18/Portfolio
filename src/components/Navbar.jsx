@@ -38,9 +38,9 @@ const Navbar = () => {
         transition={{ duration: 0.5 }}
         className="container mx-auto hidden md:flex justify-between items-center py-6"
       >
-        <div className="text-xl lg:text-2xl font-bold flex items-center gap-1">
-          <span className="text-white">SIVA</span>
-          <span className="text-purple-500">CODING</span>
+        <div className="text-xl lg:text-2xl font-bold flex items-center gap-1 ml-5">
+          <span className="text-white">CODING </span>
+          <span className="text-purple-500">SIVA</span>
         </div>
         <ul className="hidden md:flex items-center space-x-6 list-none lg:text-l md:text-base text-white cursor-pointer">
           {items.map(({ id, text, to }) => (

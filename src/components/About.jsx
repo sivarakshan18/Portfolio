@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../assets/about.png";
+import about from "../assets/photo2.png";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -36,7 +36,7 @@ const About = () => {
           transition={{ delay: 0.5, duration: 0.5 }}
           className="mb-12 text-gray-400 text-center"
         >
-          I’m a Computer Science student passionate about building efficient and user-friendly web applications.
+          I’m a Information Technology student passionate about building efficient and user-friendly web applications.
         </motion.p>
 
         {/* Image and About Text */}
@@ -52,8 +52,7 @@ const About = () => {
             <motion.img
               src={about}
               alt="About"
-             className="w-[80%] sm:w-[80%] md:w-[60%] rounded-full aspect-square object-cover mx-auto"
-
+              className="w-[60%] sm:w-[55%] md:w-[45%] rounded-full aspect-square object-cover"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             />
@@ -65,20 +64,19 @@ const About = () => {
             initial={{ opacity: 0, x: 100 }}
             animate={inView2 ? { opacity: 1, x: 0 } : {}}
             transition={{ delay: 0.6, duration: 0.6 }}
-            className="md:w-1/2 text-gray-400 px-4 md:px-0 text-base sm:text-lg md:text-xl"
+            className="md:w-1/2 text-gray-400 px-4 md:px-0 text-base sm:text-lg md:text-xl mr-15"
           >
-            We are a team of passionate developers and designers dedicated to creating innovative, user-centric digital
-            solutions. With a strong foundation in modern technologies and a focus on quality, we strive to bring ideas
-            to life through clean code, thoughtful design, and seamless user experiences.
+           I enjoy building real-world applications using technologies like React and Spring Boot. I am a quick learner, a team player, and always eager to explore new technologies and solve challenging problems.
+
           </motion.p>
         </div>
 
         {/* Counter section with pulse animation */}
         <div className="flex flex-col sm:flex-row justify-around items-center mt-8 space-y-6 sm:space-y-0">
           {[
-            { count: "7+", label: "Projects I have Made", delay: 0.2 },
-            { count: "8+", label: "Certifications Earned", delay: 0.4 },
-            { count: "10+", label: "Skills I’ve Learned So Far", delay: 0.6 },
+            { count: "10+", label: "Projects I have Made", delay: 0.2 },
+            { count: "13+", label: "Certifications Earned", delay: 0.4 },
+            { count: "11+", label: "Skills I’ve Learned So Far", delay: 0.6 },
           ].map((item, i) => (
             <motion.div
               ref={ref3}

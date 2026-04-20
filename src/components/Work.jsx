@@ -1,7 +1,7 @@
 import React from "react";
-import project3 from "../assets/project.jpg";
+import project3 from "../assets/project3.png";
 import project2 from "../assets/project2.jpg";
-import project1 from "../assets/project3.jpg";
+import project1 from "../assets/ecommerce.png";
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import Skills from "./Skills";
@@ -10,9 +10,9 @@ const Work = () => {
   const projects = [
     {
       id: 1,
-      title: "Smart Email Assistant",
+      title: "E-commerce Website",
       decription:
-      "An AI-powered assistant that generates, summarizes, and responds to emails with context-aware intelligence. Enhances productivity by automating email drafting and reply suggestions using Gemini AI.",
+        "A full-stack e-commerce app for browsing, searching, and managing products with CRUD operations and a responsive UI.",
       image: project1,
       link: "#",
     },
@@ -24,11 +24,11 @@ const Work = () => {
       image: project2,
       link: "#",
     },
-   {
+    {
       id: 3,
-      title: "Hospital Management System",
+      title: "Employee Management System",
       decription:
-        "A full-stack web application to manage hospital operations including patient registration, doctor appointments, and admin control. Built using Django, React, and JWT authentication.",
+        "A full-stack employee management system with CRUD operations, built using Spring Boot and React.",
       image: project3,
       link: "#",
     },

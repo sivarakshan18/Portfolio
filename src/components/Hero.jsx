@@ -1,6 +1,6 @@
-import React from "react";
-import hero from "../assets/hero.png";
-import { motion } from "framer-motion"; // use 'framer-motion' instead of 'motion/react'
+
+import hero from "../assets/photo1.png";
+import { motion } from "framer-motion"; 
 import { Link } from "react-scroll";
 
 const Hero = () => {
